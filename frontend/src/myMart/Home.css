@@ -1,0 +1,69 @@
+/* AddProduct.css */
+form {
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 30px;
+  border-radius: 12px;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.2);
+  color: white;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+form input,
+form button {
+  width: 100%;
+  padding: 12px 4px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  transition: all 0.2s ease-in-out;
+}
+
+form input::placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+form input {
+  background: rgba(255, 255, 255, 0.1);
+  color: white;
+}
+
+form input:focus {
+  outline: 2px solid #fff;
+  background: rgba(255, 255, 255, 0.2);
+}
+
+form button {
+  background: #00c9a7;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+form button:hover {
+  background: #00b896;
+}
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.product-card {
+  border: 1px solid #ccc;
+  padding: 15px;
+  width: 220px;
+  border-radius: 6px;
+  text-align: center;
+  box-shadow: 1px 1px 4px rgba(0,0,0,0.1);
+}
+
+.product-card img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}

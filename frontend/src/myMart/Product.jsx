@@ -8,7 +8,7 @@ function ProductPage() {
   const [error, setError] = useState(null);
 
   // 🔥 IMPORTANT: Use environment variable instead of hardcoded localhost
-  const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:5000';
+  const API_URL = import.meta.env.VITE_API_URL || 'https://myprojects-16nt.onrender.com/';
 
   useEffect(() => {
     async function fetchProducts() {
